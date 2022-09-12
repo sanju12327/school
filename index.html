@@ -1,0 +1,203 @@
+<html>
+
+<head>
+    <title>St. Xavier’s School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St. Xavier’s School</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#Campus Life">Campus Life</a></li>
+                <li><a href="#Achievments">Achievments</a></li>
+                <li><a href="#Whats New">Whats New</a></li>
+                <li><a href="#Alumni">Alumni</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcment">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">*** Feel free to ask any questions on school@gmail.com ***</marquee>
+    </div>
+    <iframe id="video" width="2550" height="800" src="https://www.youtube.com/embed/9Frow8HMh74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class="page-header" id="campus_life">
+        <h2 class="text-capitalize">Campus Life</h2>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://s3-media0.fl.yelpcdn.com/bphoto/tWPPuO3q0tQMeciY-pfI9g/o.jpg">
+                <h4 class="text-capitalize"><kbd>Library</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">Was built in 1865</h5>
+                <p>Has great books and many loved classics.</p>
+            </div>
+
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://bloximages.chicago2.vip.townnews.com/nonpareilonline.com/content/tncms/assets/v3/editorial/d/58/d58adce2-d44c-11e5-9547-77bd83d60d1e/56c27ba8f38d8.image.jpg">
+                <h4 class="text-capitalize"><kbd>Auditorium</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">Was built in 1795</h5>
+                <p>Had many great shows and concerts. </p>
+            </div>
+
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://s8z7g7z7.stackpathcdn.com/sites/default/files/styles/project/public/projects/inclusive-playground-shaparral-elementary-nm.jpg?itok=vt1q8eQx">
+                <h4 class="text-capitalize"><kbd>Playground</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">Was built in 1763</h5>
+                <p>Had many fun times with friends</p>
+            </div>
+        </div>
+    </div>
+    <div class="page-header" id="achievments">
+        <h2 class="text-capitalize">school achievments</h2>
+    </div>
+
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievment1">
+        Inter District Art Competition <i class="fa fa-sort-desc"></i>
+        <div id="school_achievment1" class="collapse">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="achievmentsId"></div>
+            <img src="https://www.outsmartmagazine.com/wp-content/uploads/2018/01/facebook_event_1744616422236472.jpg" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">won first place in inter district art competition</h5>
+        </div>
+    </div>
+
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+        <h2 class="text-capitalize">what's new</h2>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12" environment_li>
+                <h4 class="text-capitalize">new playground</h4>
+                <img src="https://www.bottlingerlaw.com/blog/wp-content/uploads/2018/07/playground-2263827_1920-1024x683.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12" environment_li>
+                <h4 class="text-capitalize">new classrooms</h4>
+                <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="https://www.gannett-cdn.com/presto/2018/12/11/POEN/1bf8529c-5855-4948-b1c9-609b51043aa6-GettyImages-950607874.jpg?width=1320&height=878&fit=crop&format=pjpg&auto=webp">
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-toggle="modal" data-target="#school_alumni1">
+        <img src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg" id="bo">
+        <hr>
+        <p class="text-primary">Barack Obama</p>
+    </div>
+
+    <div class="modal fade" id="school_alumni1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Barack Obama</h4>
+                </div>
+                
+                <div class="modal-body">
+                    <img src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg" class="img-responsive img-modal">
+                    <p class="p_modal">He was the 44th American President</p>
+                    <a href="https://en.wikipedia.org/wiki/Barack_Obama"><b>To know more</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-toggle="modal" data-target="#school_alumni1">
+        <img src="https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg" id="em">
+        <hr>
+        <p class="text-primary">Elon Musk</p>
+    </div>
+
+    <div class="modal fade" id="school_alumni1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Elon Musk</h4>
+                </div>
+                
+                <div class="modal-body">
+                    <img src="https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg" class="img-responsive img-modal">
+                    <p class="p_modal">He is one of the most successful businessman</p>
+                    <a href="https://en.wikipedia.org/wiki/Elon_Musk"><b>To know more</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-toggle="modal" data-target="#school_alumni1">
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ed560d07fe4060006bbce1e%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D422%26cropX2%3D1300%26cropY1%3D0%26cropY2%3D879" id="ed">
+        <hr>
+        <p class="text-primary">Ellen DeGeneres</p>
+    </div>
+
+    <div class="modal fade" id="school_alumni1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ellen DeGeneres</h4>
+                </div>
+                
+                <div class="modal-body">
+                    <img src="hhttps://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ed560d07fe4060006bbce1e%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D422%26cropX2%3D1300%26cropY1%3D0%26cropY2%3D879" class="img-responsive img-modal">
+                    <p class="p_modal">She is an American comedian, television host, actress, writer, and producer.</p>
+                    <a href="https://en.wikipedia.org/wiki/Ellen_DeGeneres"><b>To know more</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize">contact us</h2>
+        </div>
+
+        <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5869113505946!2d72.88852518646206!3d19.125769753224933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97f346053b7%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1614996540445!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div id="details">
+            <img src="https://i.posting.cc/RZMSc6hR/sp.png" class="img-reponsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal Name: </h3>
+            <h4>Mr. Xavier John Dcosta</h4>
+            <div class="contact_1">
+                <a href="malito:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envolope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolID</h5>
+                </a>
+
+                <a href="malito:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;(123)-456-7890</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
